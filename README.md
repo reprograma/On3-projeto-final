@@ -28,8 +28,8 @@ Precisamos falar sobre mulheres que mudaram o mundo!
 - Dentro da sua pasta, crie também as pastas de imagens, css e js, seguindo o padrão:
 
 ```
-mulheres-maravilha/
-  fulana-da-silva/
+maravilholhas/
+  cintia-fumi/
     ada-lovelace.html
     css/
       style.css
