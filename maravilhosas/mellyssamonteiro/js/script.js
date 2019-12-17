@@ -55,7 +55,7 @@ window.addEventListener("scroll", function(){
 // SLIDER 
 
 
-let intervalo = 1000;
+let intervalo = 3000;
 
 function slide1(){
     document.getElementById("banner").src ="/img/ada-pensador1.jpg";
@@ -66,14 +66,14 @@ function slide1(){
 function slide2(){
     document.getElementById("banner").src ="/img/ada-pensador2.jpg";
     setTimeout(slide3(), intervalo);
-
 }
 
 function slide3(){
     document.getElementById("banner").src ="/img/ada-pensador3.jpg";
     setTimeout(slide1(), intervalo);
 }
-window.onload = slide1()
+
+//window.onload = slide1()
 
 
 /*
