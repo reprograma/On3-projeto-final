@@ -1,0 +1,567 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+
+/* --- HEADER --- */
+
+.header__bertha {
+    min-height: 70vh;
+    width: 100%;
+    height: 100%;
+    background: url(../img/background0.jpg);
+    background-size: cover;
+    filter: contrast(100%);
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    padding: 11rem 2rem 5rem 2rem;
+    color: white;
+}
+
+
+@media (max-width: 1024px) {
+    
+    
+
+}
+
+@media (max-width: 768px) {
+    
+    
+
+}
+
+
+@media (max-width: 420px) {
+    
+    
+
+}
+
+
+@media (max-width: 375px) {
+    
+    
+
+}
+
+
+.principal__btnBertha {
+    margin: 0;
+}
+
+.bertha__titulo {
+    font-size: 50px;
+    font-weight: lighter;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.imgFonte {
+    text-align: left;
+}
+
+.area {
+    height: 5px;
+    display: block;
+}
+
+
+/*--- BTN ROXO ---*/
+
+/*.btn {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 1rem 1rem;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+
+.btn_roxo {
+    color: white;
+    background-color: #826994;
+    display: block;
+    max-width:200px;
+    margin-bottom: 30px;
+    text-align: center;
+    transition: all .5s;
+}
+
+.btn_roxo:hover,
+.btn_roxo:focus {
+    transform: translateY(-1rem);
+    box-shadow: 0 10px 10px rgba(0,0,0,.2);
+    background-color: #692f92;
+}
+
+.btn_roxo:active {
+    transform: translateY(-3rem);
+    box-shadow: 0 5px 5px rgba(0,0,0,.2);
+}
+
+.btn_center {
+    margin: 0 auto;
+}*/
+
+
+/*-- NAV BERTHA --*/
+
+.navegacaoBertha ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 80px 20px 0 0;
+  }
+  
+.navegacaoBertha li {
+    display: inline;
+    font-size: 20px;
+    margin: 50px 80px 0 0;
+    color: #692f92;
+  }
+
+.navegacaoBertha li:hover {
+    color: #692f92;
+    font-weight: bolder;
+}
+
+
+/*--- SOBRE ---*/
+
+.sobreBertha {
+    margin: 50px auto;
+}
+
+.sobreBertha__conteudo {
+    text-align: justify;
+    font-size: 16px;
+    font-weight: lighter;
+    display: flex;
+}
+
+.sobreBertha p {
+    margin: 0 70px 0 0;
+    line-height: 25px;
+}
+
+.sobreBertha__img img {
+    max-width: 300px;
+    height: auto;
+}
+
+
+/*-- CIENTISTA --*/
+
+.cientBertha {
+    margin: 50px auto;
+}
+
+.cientBertha__conteudo {
+    text-align: justify;
+    font-size: 16px;
+    font-weight: lighter;
+    display: flex;
+}
+
+.cientBertha p {
+    margin: 0 0 0 70px;
+    line-height: 25px;
+}
+
+.cientBertha__img img {
+    width: 300px;
+    height: auto;
+}
+
+
+/*--- SUFRAGISTA ---*/
+
+.sufraBertha {
+    margin: 50px auto;
+}
+
+.sufraBertha__conteudo {
+    text-align: justify;
+    font-size: 16px;
+    font-weight: lighter;
+    display: flex;
+}
+
+.sufraBertha p {
+    margin: 0 70px 0 0;
+    line-height: 25px;
+}
+
+.sufraBertha__img img {
+    max-width: 300px;
+    height: auto;
+}
+
+
+/*--- PARLAMENTAR ---*/
+
+.parlaBertha {
+    margin: 50px auto;
+}
+
+.parlaBertha__conteudo {
+    text-align: justify;
+    font-size: 16px;
+    font-weight: lighter;
+    display: flex;
+}
+
+.parlaBertha p {
+    margin: 0 0 0 70px;
+    line-height: 25px;
+}
+
+.parlaBertha__img img {
+    width: 300px;
+    height: auto;
+}
+
+
+/*--- LEGADO ---*/
+
+.legadoBertha {
+    margin: 50px auto;
+}
+
+.legadoBertha__conteudo {
+    text-align: justify;
+    font-size: 16px;
+    font-weight: lighter;
+    display: flex;
+}
+
+.legadoBertha p {
+    margin: 0 70px 0 0;
+    line-height: 25px;
+}
+
+.legadoBertha__img img {
+    max-width: 300px;
+    height: auto;
+}
+
+
+/*--- SEPARADORES ---*/
+
+.separadorBertha {
+    background: url(../img/background1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100px;
+}
+
+.separador {
+    background-color: #000;
+    background-size: cover; 
+    height: 200px;
+    width: 100%;
+    display: block;
+    opacity: 0;
+    margin: 100px 0 120px 0;
+}
+
+.separadorBertha2 {
+    background: url(../img/background2.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100px;
+}
+
+.separadorBertha3 {
+    background: url(../img/background3.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100px;
+}
+
+.separadorBertha4 {
+    background: url(../img/background4.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100px;
+}
+
+
+/*--- CITACAO ---*/
+
+.secao-diva__citacao p {
+    transition: all .5s;
+    border: 2px solid #826994;
+    text-align: justify;
+    padding: 4rem;
+    font-family: 'Lobster', sans-serif;
+    font-size: 2.3rem;
+    color: #7e5c99;
+    margin-bottom: 10rem;
+    margin-right: 200px;
+    margin-left: 200px;
+    min-height: 100px;
+}
+
+.secao-diva__citacao p:hover {
+    transform: scale(1.1);
+}
+
+/* BOTAO VER MAIS MULHERES */
+
+.secao-cta {
+    text-align: right;
+    padding: 4rem 4rem;
+    width: 50%;
+    padding-right: 160px;
+    padding-bottom: 80px;
+}
+
+.secao-cta__btn {
+    padding: 10px 25px;
+    border-radius: 5px;
+    background-color: #826994;
+    color: #F4F0E4;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/* BOTÃO AUTORA */
+
+.secao-autora {
+    text-align: left;
+    padding: 4rem 4rem;
+    padding-left: 0px;
+    padding-bottom: 80px;
+    width: 50%;
+    width: 640px;
+}
+
+.secao-autora__btn {
+    padding: 10px 25px;
+    border-radius: 5px;
+    background-color: #826994;
+    color: #F4F0E4;   
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5rem;
+
+}
+
+.secao-autora__btn:hover,
+.secao-autora__btn:focus {
+    transform: translateY(-1rem);
+    box-shadow: 0 10px 10px rgba(0,0,0,.2);
+    background-color: #692f92;
+}
+
+
+/* MODAL BOTAO AUTORA */
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #826994;
+}
+
+.modal-conteudo {
+    margin: 10% auto;
+    width: 60%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.7), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+    animation-name: modalopen;
+    animation-duration: var(--modal-duration);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.modal-header h2,
+.modal-footer h4 {
+  margin: 0;
+}
+
+.modal-header {
+    background: var(--modal-color);
+    padding: 15px;
+    color: #ffffff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+  
+.modal-body {
+    padding: 10px 30px;
+    background: #fff;
+    display: flex;
+}
+
+.modal-body img {
+    width: 20%;
+    height: 20%;
+}
+
+.modal-body p {
+    width: 100%;
+    padding-left: 2rem;
+    font-size: 16px;
+    text-align: justify;
+}
+  
+.modal-footer {
+    background: var(--modal-color);
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.modal-footer a {
+    color: #fff;
+}
+
+.modal-footer a:hover{
+    opacity: 0.8;
+}
+  
+.close {
+    color: #ccc;
+    float: right;
+    font-size: 30px;
+    color: #fff;
+}
+  
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+  
+@keyframes modalopen {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}
+  
+.secao-botoes{
+    display: flex;
+}
+
+
+/* MEDIA QUERIES */
+
+/* MOBILE */
+
+/* CONDIÇÃO 480px */
+
+
+/*@media (min-width: 768px) {
+
+    /* --- NAV ---
+
+.navegacao__itens {
+    position: static;
+    display: flex;
+    padding: 0;
+    width: auto;
+}
+
+.navegacao__nav {
+    margin-bottom: 0;
+}
+    
+.navegacao__itens ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+    
+.navegacao__itens li {
+    font-size: 1.2rem;
+    margin: 0 0.6rem;
+}
+    
+.navegacao__menu-hamburguer {
+    display: none;
+}*/
+
+
+
+/*@media (max-width: 768px) {
+
+.header__bertha {
+    min-height: 75vh;
+    background-size: cover;
+    background-position-y: 0;
+    text-align: left;
+    padding: 5rem 10rem;
+}
+    
+.principal__titulo {
+    font-size: 2.9rem;
+}
+
+.sobreBertha {
+    max-width: 200px;
+    margin: 5rem;
+}
+
+.sobreBertha__conteudo {
+    display: flex;
+    align-items: left;
+    margin: 4em 0;
+}
+
+.bertha__titulo {
+    margin: 0 0 30px 10px;
+}
+
+.sobreBertha__img {
+    margin: 50%;
+}
+
+#audio-sobre {
+    margin: 30%;
+}
+
+.cientBertha__conteudo {
+    display: block;
+}
+
+.header__bertha {
+    width: 100%;
+}
+
+.cientBertha p {
+    margin: 0 10px 0 10px;
+    line-height: 25px;
+}
+
+.sobreBertha p {
+    margin: 0 10px 0 10px;
+    line-height: 25px;
+}
+
+.navegacaoBertha {
+    padding: 4rem 0;
+    margin: 0 0 0 20px;
+}
+
+.cientBertha__img {
+    margin: 0 0 0 10px;
+} */
