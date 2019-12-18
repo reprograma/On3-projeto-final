@@ -456,11 +456,8 @@ div:hover h6 {
       }
   
     /* --- SECTION CONTEUDO --- */
-    .conteudo > div {
+    .conteudo {
       padding: 4rem 0;
-      max-width: 200px;
-      margin: 5rem;
-
     }
   
   
