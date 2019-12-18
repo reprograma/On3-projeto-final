@@ -51,16 +51,33 @@ window.addEventListener("scroll", function(){
 
 })
 
+//ARROW PADRONIZADO
+
+try {
+    const buttonAutora = document.querySelector('.arrow')
+    buttonAutora.addEventListener('click', function(e){
+        e.preventDefault()
+        buttonAutora.classList.toggle('arrow-close')
+        const autoraInfos = document.querySelector('.secao-autora__about')
+        autoraInfos.classList.toggle('opened');
+    })
+} catch {
+    if(!buttonAutora) {
+        
+    } 
+}
+
+
 
 // SLIDER 
 
 
-let intervalo = 3000;
+/*let intervalo = 3000;
 
 function slide1(){
     document.getElementById("banner").src ="/img/ada-pensador1.jpg";
     setTimeout(slide2(), intervalo);
-    console.log("entrou no slide1")
+    
 }
 
 function slide2(){
@@ -72,7 +89,7 @@ function slide3(){
     document.getElementById("banner").src ="/img/ada-pensador3.jpg";
     setTimeout(slide1(), intervalo);
 }
-
+*/
 //window.onload = slide1()
 
 
