@@ -1,3 +1,4 @@
+ 
 (function() {
   var menuResponsivo = document.getElementById("menuResponsivo");
   var btnResponsivo = document.getElementById("btnResponsivo");
@@ -24,15 +25,3 @@ window.addEventListener("scroll", function() {
       "transparent";
   }
 });
-
-
-window.addEventListener("scroll", function() {
-  var menuAuxiliar = document.querySelector(".menu-auxiliar");
-
-  if (pageYOffset >= 410) {
-    menuAuxiliar.className += " navegacao__auxiliar";
-  } else {
-    menuAuxiliar.className = "menu-auxiliar";
-  }
-});
-
