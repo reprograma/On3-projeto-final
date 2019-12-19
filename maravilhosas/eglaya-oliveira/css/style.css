@@ -20,25 +20,26 @@ html {
     color: white;
 }
 
-
 @media (max-width: 1024px) {
-    
     .header__bertha {
-        min-height: 40vh;
+        min-height: 70vh;
         width: 100%;
         height: 100%; 
         padding: 11rem 2rem 5rem 6rem; 
         align-items: flex-end;
     }
-
 }
 
 @media (max-width: 768px) {
     
-    
-
+    .header__bertha {
+        min-height: 50vh;
+        width: 100%;
+        height: 100%; 
+        padding: 11rem 2rem 5rem 6rem; 
+        align-items: flex-end;
+    }
 }
-
 
 @media (max-width: 420px) {
     
@@ -66,23 +67,14 @@ html {
 }
 
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
     
     .bertha__titulo {
         font-size: 25px;
         margin-bottom: 10px;
         margin-top: 10px;
-        
     }
-
 }
-
-@media (max-width: 768px) {
-    
-    
-
-}
-
 
 @media (max-width: 420px) {
     
@@ -155,27 +147,10 @@ html {
 @media (max-width: 1024px) {
     
     .navegacaoBertha ul {
-        padding: 40px 0 0 0;
-        
+        padding-left: 60px;
+        padding-top: 80px;
     }
-
 }
-
-@media (max-width: 1024px) {
-    
-    .navegacaoBertha {
-        padding: 0 60px;
-        
-    }
-
-}
-
-@media (max-width: 768px) {
-    
-    
-
-}
-
 
 @media (max-width: 420px) {
     
@@ -198,12 +173,18 @@ html {
 }
 
 @media (max-width: 1024px) {
+    .navegacaoBertha li {
+        font-size: 20px;
+        margin: 50px 60px 0 0;
+    }
+}
+
+@media (max-width: 768px) {
     
     .navegacaoBertha li {
         font-size: 20px;
-        margin: 50px 20px 0 0;
+        margin: 50px 45px 0 0;
     }
-
 }
 
 @media (max-width: 768px) {
@@ -245,6 +226,19 @@ html {
     }
 }
 
+@media (max-width: 768px) {
+    
+    .sobreBertha {
+        padding: 0 60px;
+    }
+}
+
+@media (max-width: 420px) {
+    .sobreBertha {
+        padding: 0 30px;
+    }
+}
+
 .sobreBertha__conteudo {
     text-align: justify;
     font-size: 16px;
@@ -252,7 +246,7 @@ html {
     display: flex;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
     
     .sobreBertha__conteudo {
         font-size: 14px;
@@ -264,10 +258,18 @@ html {
     line-height: 25px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
     
     .sobreBertha p {
         margin: 0 55px 0 0;
+        line-height: 20px;
+    }
+}
+
+@media (max-width: 420px) {
+    
+    .sobreBertha p {
+        margin: 0 30px 0 0;
         line-height: 20px;
     }
 }
@@ -277,10 +279,18 @@ html {
     height: auto;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
     
     .sobreBertha__img img {
         max-width: 250px;
+        height: auto;
+    }
+}
+
+@media (max-width: 420px) {
+    
+    .sobreBertha__img img {
+        max-width: 200px;
         height: auto;
     }
 }
@@ -299,6 +309,13 @@ html {
     }
 }
 
+@media (max-width: 768px) {
+    
+    .cientBertha {
+        padding: 0 60px;
+    }
+}
+
 .cientBertha__conteudo {
     text-align: justify;
     font-size: 16px;
@@ -306,7 +323,7 @@ html {
     display: flex;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
     
     .cientBertha__conteudo {
         font-size: 14px;
@@ -318,7 +335,7 @@ html {
     line-height: 25px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
     
     .cientBertha p {
         margin: 0 0 0 55px;
@@ -331,7 +348,7 @@ html {
     height: auto;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
     
     .cientBertha__img img {
         max-width: 250px;
@@ -353,6 +370,13 @@ html {
     }
 }
 
+@media (max-width: 768px) {
+    
+    .sufraBertha {
+        padding: 0 60px;
+    }
+}
+
 .sufraBertha__conteudo {
     text-align: justify;
     font-size: 16px;
@@ -360,7 +384,7 @@ html {
     display: flex;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
     
     .sufraBertha__conteudo {
         font-size: 14px;
@@ -372,7 +396,7 @@ html {
     line-height: 25px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
     
     .sufraBertha p {
         margin: 0 55px 0 0;
@@ -385,7 +409,7 @@ html {
     height: auto;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
     
     .sufraBertha__img img {
         max-width: 250px;
@@ -407,6 +431,13 @@ html {
     }
 }
 
+@media (max-width: 768px) {
+    
+    .parlaBertha {
+        padding: 0 60px;
+    }
+}
+
 .parlaBertha__conteudo {
     text-align: justify;
     font-size: 16px;
@@ -414,7 +445,7 @@ html {
     display: flex;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
     
     .parlaBertha__conteudo {
         font-size: 14px;
@@ -426,7 +457,7 @@ html {
     line-height: 25px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
     
     .parlaBertha p {
         margin: 0 0 0 55px;
@@ -439,7 +470,7 @@ html {
     height: auto;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
     
     .parlaBertha__img img {
         max-width: 250px;
@@ -461,6 +492,13 @@ html {
     }
 }
 
+@media (max-width: 768px) {
+    
+    .legadoBertha {
+        padding: 0 60px;
+    }
+}
+
 .legadoBertha__conteudo {
     text-align: justify;
     font-size: 16px;
@@ -468,7 +506,7 @@ html {
     display: flex;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
     
     .legadoBertha__conteudo {
         font-size: 14px;
@@ -480,7 +518,7 @@ html {
     line-height: 25px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
     
     .legadoBertha p {
         margin: 0 55px 0 0;
@@ -493,7 +531,7 @@ html {
     height: auto;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
     
     .legadoBertha__img img {
         max-width: 250px;
@@ -505,6 +543,44 @@ html {
 /* --- AUDIO --- */
 
 @media (max-width: 1024px) {
+
+    #audio-sobre {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 200px;
+        height: 50px;
+    }
+
+    #audio-cient {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 200px;
+        height: 50px;
+    }
+
+    #audio-sufra {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 200px;
+        height: 50px;
+    }
+
+    #audio-parla {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 200px;
+        height: 50px;
+    }
+
+    #audio-legado {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 200px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 768px) {
 
     #audio-sobre {
         margin-bottom: 10px;
@@ -558,9 +634,20 @@ html {
 @media (max-width: 1024px) {
     
     .separador {
-        margin: 80px 0 80px 0;
-        height: 150px;
+        height: 200px;
         width: 100%;
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+}
+
+@media (max-width: 768px) {
+    
+    .separador {
+        height: 180px;
+        width: 100%;
+        margin-top: 60px;
+        margin-bottom: 60px;
     }
 }
 
@@ -599,7 +686,7 @@ html {
 
 /*--- CITACAO ---*/
 
-.secao-diva__citacao p {
+.secao-diva__primcitacao p {
     transition: all .5s;
     border: 2px solid #826994;
     text-align: justify;
@@ -611,6 +698,68 @@ html {
     margin-right: 200px;
     margin-left: 200px;
     min-height: 100px;
+}
+
+.secao-diva__segcitacao p {
+    transition: all .5s;
+    border: 2px solid #826994;
+    text-align: justify;
+    padding: 4rem;
+    font-family: 'Lobster', sans-serif;
+    font-size: 2.3rem;
+    color: #7e5c99;
+    margin-bottom: 10rem;
+    margin-right: 200px;
+    margin-left: 200px;
+    min-height: 100px;
+}
+
+@media (max-width: 1024px) {
+    
+    .secao-diva__primcitacao p {
+        margin-right: 60px;
+        margin-left: 60px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        font-size: 16px;
+        padding: 20px 20px
+    }
+    
+    .secao-diva__segcitacao p {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin-right: 60px;
+        margin-left: 60px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        font-size: 16px;
+        padding: 20px 20px
+    }
+}
+
+@media (max-width: 768px) {
+    
+    .secao-diva__primcitacao p {
+        margin-right: 60px;
+        margin-left: 60px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        font-size: 16px;
+        padding: 20px 20px
+    }
+
+    .secao-diva__segcitacao p {
+        display: flex;
+        align-items: center;
+        margin-right: 60px;
+        margin-left: 60px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        font-size: 16px;
+        padding: 20px 20px
+    }
 }
 
 .secao-diva__citacao p:hover {
@@ -627,6 +776,16 @@ html {
     padding-bottom: 80px;
 }
 
+@media (max-width: 768px) {
+    
+    .secao-cta {
+        padding: 4rem 0rem;
+        padding-right: 0px;
+        width: 25%;
+        width: 300px;
+    }
+}
+
 .secao-cta__btn {
     padding: 10px 25px;
     border-radius: 5px;
@@ -636,6 +795,17 @@ html {
     font-weight: bold;
     font-size: 1.5rem;
 }
+
+@media (max-width: 768px) {
+    
+    .secao-cta__btn {
+        
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 1.3rem;
+    }
+}
+
 
 /* BOTÃO AUTORA */
 
@@ -648,6 +818,18 @@ html {
     width: 640px;
 }
 
+@media (max-width: 768px) {
+    
+    .secao-autora {
+        margin-right: 110px;
+        padding: 4rem 4rem;
+        padding-left: 50px;
+        padding-bottom: 40px;
+        width: 25%;
+        width: 300px;
+    }
+}
+
 .secao-autora__btn {
     padding: 10px 25px;
     border-radius: 5px;
@@ -656,7 +838,16 @@ html {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 1.5rem;
+}
 
+@media (max-width: 768px) {
+    
+    .secao-autora__btn {
+        padding: 10px 25px;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 1.3rem;
+    }
 }
 
 .secao-autora__btn:hover,
@@ -690,6 +881,14 @@ html {
     font-size: 14px;
 }
 
+@media (max-width: 768px) {
+    
+    .modal-conteudo {
+        margin-top: 150px;
+        width: 80%;
+    }
+}
+
 .modal-header h2,
 .modal-footer h4 {
   margin: 0;
@@ -701,6 +900,13 @@ html {
     color: #ffffff;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    
+    .modal-header {
+        font-size: 12px;
+    }
 }
   
 .modal-body {
@@ -720,6 +926,13 @@ html {
     font-size: 16px;
     text-align: justify;
 }
+
+@media (max-width: 768px) {
+    
+    .modal-body p {
+        font-size: 12px;
+    }
+}
   
 .modal-footer {
     background: var(--modal-color);
@@ -732,6 +945,13 @@ html {
 
 .modal-footer a {
     color: #fff;
+}
+
+@media (max-width: 768px) {
+    
+    .modal-footer {
+        font-size: 11px;
+    }
 }
 
 .modal-footer a:hover{
