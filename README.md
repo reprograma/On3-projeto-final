@@ -13,9 +13,9 @@ Precisamos falar sobre mulheres que mudaram o mundo!
 
 ## Etapas do projeto
 
-1. Escolha uma personalidade maravilhosa que te inspira.
+1. Escolha uma personalidade maravilhosa que te inspira e coloque o nome dela nessa [planilha](https://docs.google.com/spreadsheets/d/1yAG3BRHUHdpQXZ41Pt4Qd4LtlSUrm6OlqqAjiTFOrtk/edit?usp=sharing).
 2. Crie a página de perfil da _Maravilhosa_.
-3. Insera na página principal o nome e a foto de sua _Maravilhosa_.
+3. Insira na página principal o nome e a foto de sua _Maravilhosa_.
 4. Inclua um link para a página do seu perfil (criada no Workshop) ao final da página de perfil da sua _Maravilhosa_.
 
 ## Orientações gerais
@@ -28,7 +28,7 @@ Precisamos falar sobre mulheres que mudaram o mundo!
 - Dentro da sua pasta, crie também as pastas de imagens, css e js, seguindo o padrão:
 
 ```
-maravilholhas/
+maravilhosas/
   cintia-fumi/
     ada-lovelace.html
     css/
