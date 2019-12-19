@@ -236,9 +236,20 @@ body{
     margin-right: 10px;
   }
 }
+.link-pessoa {
+  text-decoration: none;
+  opacity: 0.5;
+}
+
 
 .efeito-foto{
   cursor: pointer;
+}
+@media (max-width:980px){
+  .efeito-foto{
+    width: 300px;
+    height: auto;
+  }
 }
 
 /* SLIDER */
