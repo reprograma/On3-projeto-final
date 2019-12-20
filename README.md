@@ -53,7 +53,7 @@ maravilhosas/
 
 ```
 <div class="maravilhosas__perfil">
-  <a href="#">
+  <a href="./maravilhosas/cintia-fumi/ada-lovelace.html">
     <img class="img-responsive" src="./img/ada.png" alt="Foto de Ada Lovelace" />
     <p>Ada Lovelace</p>
   </a>
