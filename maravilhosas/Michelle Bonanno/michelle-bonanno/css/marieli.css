@@ -104,31 +104,52 @@
 .card__front{
   position: relative;
   text-align: center;
-  background-color: rgba(247, 250, 81, 0.84);
+  background-image: url();
   height: 100%;
   width: 100%;
   height: 300px;
   width: 300px;
 }
 
-.girlpower{
-  width: 160px;
-  margin-top: 20px;
+.ultima1{
+ position: relative;
+ text-align: center;
+ background-image: url(../img/ultima1.png);
+ height: 100%;
+ width: 100%;
+ height: 300px;
+ width: 300px;
 }
 
-.satellite{
-  width: 275px;
-  margin-top: 20px;
+
+.legal{
+  position: relative;
+  text-align: center;
+  background-image: url(../img/legal.png);
+  height: 100%;
+  width: 100%;
+  height: 300px;
+  width: 300px;
 }
 
-.illusion{
-  width: 238px;
-  margin-top: 30px;
+.somos{
+  position: relative;
+  text-align: center;
+  background-image: url(../img/somos.png);
+  height: 100%;
+  width: 100%;
+  height: 300px;
+  width: 300px;
 }
 
-.tridimensional{
-  width: 280px;
-  margin-top: 30px;
+.placa{
+  position: relative;
+  text-align: center;
+  background-image: url(../img/placa.png);
+  height: 100%;
+  width: 100%;
+  height: 300px;
+  width: 300px;
 }
 
 .embed{
