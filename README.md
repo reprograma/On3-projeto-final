@@ -28,6 +28,12 @@ Precisamos falar sobre mulheres que mudaram o mundo!
 - Dentro da sua pasta, crie também as pastas de imagens, css e js, seguindo o padrão:
 
 ```
+css/
+  style.css
+img/
+  ...
+js/
+  script.js
 maravilhosas/
   cintia-fumi/
     ada-lovelace.html
@@ -38,6 +44,9 @@ maravilhosas/
     img/
       ada-lovelace-perfil.jpg
       background.jpg
+favicon.ico
+index.html
+README.md
 ```
 
 - Recomendações para sua página:
