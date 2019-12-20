@@ -1,0 +1,209 @@
+/*body {
+  background-image: url(../img/lambe-lambe-marielle.jpeg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}*/
+
+
+.p--default{
+  font-size: 20px;
+  color: white;
+}
+
+/* .about{
+  background-color:white;
+  padding: 100px 0 10px;
+  position: relative;
+} */
+
+.biography {
+    background-color: rgb(159, 59, 241);
+   
+} 
+
+.biography {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 120px;
+}
+
+.biography__text {
+    height: 100vh;
+    width: 50%;
+    text-align: left;
+    padding-top: 120px;
+}
+
+.biography__photo{
+    width: 55%;
+}
+.imgFonte {
+    text-align: center;
+}
+
+.textFonte {
+    text-align: left; 
+}
+
+.biography__text-typed{
+  text-align: left;
+  color: #fff;
+  font-size: 20px;
+  margin: 0 30px 30px;
+}
+
+.biography__author{
+  text-align: right;
+  margin: 0 30px 30px;
+  color: #f00c0c;
+  font-size: 55px;
+}
+
+.achievements{
+    background-image: url(../img/lambe-lambe-marielle.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+  }
+.achievements{
+  padding: 100px 0;
+}
+
+.achievements__card{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card{
+  position: relative;
+  height: 300px;
+  margin: 15px;
+  width: 300px;
+}
+
+.card__back{
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  background-color: rgb(36, 241, 224);
+  text-align: left;
+  padding: 30px;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.card__back:hover{
+   opacity: 1;
+}
+
+.card__front{
+  position: relative;
+  text-align: center;
+  background-color: rgba(247, 250, 81, 0.84);
+  height: 100%;
+  width: 100%;
+  height: 300px;
+  width: 300px;
+}
+
+.girlpower{
+  width: 160px;
+  margin-top: 20px;
+}
+
+.satellite{
+  width: 275px;
+  margin-top: 20px;
+}
+
+.illusion{
+  width: 238px;
+  margin-top: 30px;
+}
+
+.tridimensional{
+  width: 280px;
+  margin-top: 30px;
+}
+
+.embed{
+   text-align: center;
+   padding: 100px 0;  
+}
+
+.about{
+  text-align: center;
+  padding: 100px 0;
+}
+
+.about__title, .about__link{
+  color: #674582;
+}
+
+.about__box{
+  display: none;
+}
+
+.about__image{
+  background-color: cornsilk;
+  border: 3px dotted purple;
+  margin: 30px;
+  border-radius: 100%;
+  height: 157px;
+  object-fit: cover;
+  width: 157px;
+}
+
+.about__plus{
+  width: 30px;
+}
+
+.rodape {
+  background-color: rgb(103, 69, 130);
+}
+
+.ref-container{
+  background: #ececec;
+  border-radius: 20px;
+  padding: 15px;
+  margin: 5%;
+}
+h3{
+  color: #63458a;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+.ref-container a{
+  font-size: 1.5rem;
+}
+
+
+@media(min-width: 1025px){
+  .biography__image{
+    position: absolute;
+    bottom: -3px;
+  }
+  .biography__text{
+    width: 50%;
+    margin-left: 50%;
+  }
+}
+
+@media(max-width: 1024px){
+  .biography__image{
+    text-align: center;
+  }
+  .biography__author{
+    text-align: center;
+  }
+  .biography__text-typed{
+    margin: 30px;
+    text-align: left;
+  }
+}
