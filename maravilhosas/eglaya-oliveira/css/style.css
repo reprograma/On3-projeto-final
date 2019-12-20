@@ -1,0 +1,883 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* --- HEADER --- */
+
+.header__bertha {
+    min-height: 70vh;
+    width: 100%;
+    height: 100%;
+    background: url(../img/background0.jpg);
+    background-size: cover;
+    filter: contrast(100%);
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    padding: 11rem 2rem 5rem 2rem;
+    color: white;
+}
+
+    @media (max-width: 1024px) {
+        .header__bertha {
+            min-height: 70vh;
+            width: 100%;
+            height: 100%; 
+            padding: 11rem 2rem 5rem 6rem; 
+            align-items: flex-end;
+        }
+    }
+
+    @media (max-width: 768px) {
+        
+        .header__bertha {
+            min-height: 50vh;
+            width: 100%;
+            height: 100%; 
+            padding: 11rem 2rem 5rem 6rem; 
+            align-items: flex-end;
+        }
+    }
+
+.bertha__titulo {
+    font-size: 50px;
+    font-weight: lighter;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+    @media (max-width: 768px) {
+        
+        .bertha__titulo {
+            font-size: 25px;
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+    }
+
+    
+.imgFonte {
+    text-align: left;
+}
+
+.area {
+    height: 5px;
+    display: block;
+}
+
+
+/*-- NAV BERTHA --*/
+
+.navegacaoBertha ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 80px 0 0 0;
+}
+
+    @media (max-width: 1024px) {
+        
+        .navegacaoBertha ul {
+            padding-left: 60px;
+            padding-top: 80px;
+        }
+    }
+
+
+.navegacaoBertha li {
+    display: inline;
+    font-size: 20px;
+    margin: 50px 80px 0 0;
+    color: #692f92;
+}
+
+    @media (max-width: 1024px) {
+        .navegacaoBertha li {
+            font-size: 20px;
+            margin: 50px 60px 0 0;
+        }
+    }
+
+    @media (max-width: 768px) {
+        
+        .navegacaoBertha li {
+            font-size: 18px;
+            margin: 50px 30px 0 0;
+        }
+    }
+
+
+.navegacaoBertha li:hover {
+    color: #692f92;
+    font-weight: bolder;
+}
+
+
+/*--- SOBRE ---*/
+
+.sobreBertha {
+    margin: 50px auto;
+}
+
+    @media (max-width: 1024px) {
+        
+        .sobreBertha {
+            padding: 0 60px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        
+        .sobreBertha {
+            padding: 0 60px;
+        }
+    }
+
+
+.sobreBertha__conteudo {
+    text-align: justify;
+    font-size: 16px;
+    font-weight: lighter;
+    display: flex;
+}
+
+    @media (max-width: 768px) {
+        
+        .sobreBertha__conteudo {
+            font-size: 14px;
+        }
+    }
+
+
+.sobreBertha p {
+    margin: 0 70px 0 0;
+    line-height: 25px;
+}
+
+    @media (max-width: 768px) {
+        
+        .sobreBertha p {
+            margin: 0 55px 0 0;
+            line-height: 20px;
+        }
+    }
+
+
+.sobreBertha__img img {
+    max-width: 300px;
+    height: auto;
+}
+
+    @media (max-width: 768px) {
+        
+        .sobreBertha__img img {
+            max-width: 250px;
+            height: auto;
+        }
+    }
+
+    
+
+/*-- CIENTISTA --*/
+
+.cientBertha {
+    margin: 50px auto;
+}
+
+    @media (max-width: 1024px) {
+        
+        .cientBertha {
+            padding: 0 60px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        
+        .cientBertha {
+            padding: 0 60px;
+        }
+    }
+
+.cientBertha__conteudo {
+    text-align: justify;
+    font-size: 16px;
+    font-weight: lighter;
+    display: flex;
+}
+
+    @media (max-width: 768px) {
+        
+        .cientBertha__conteudo {
+            font-size: 14px;
+        }
+    }
+
+.cientBertha p {
+    margin: 0 0 0 70px;
+    line-height: 25px;
+}
+
+    @media (max-width: 768px) {
+        
+        .cientBertha p {
+            margin: 0 0 0 55px;
+            line-height: 20px;
+        }
+    }
+
+
+.cientBertha__img img {
+    width: 300px;
+    height: auto;
+}
+
+    @media (max-width: 768px) {
+        
+        .cientBertha__img img {
+            max-width: 250px;
+            height: auto;
+        }
+    }
+
+       
+/*--- SUFRAGISTA ---*/
+
+.sufraBertha {
+    margin: 50px auto;
+}
+
+    @media (max-width: 1024px) {
+        
+        .sufraBertha {
+            padding: 0 60px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        
+        .sufraBertha {
+            padding: 0 60px;
+        }
+    }
+
+    
+.sufraBertha__conteudo {
+    text-align: justify;
+    font-size: 16px;
+    font-weight: lighter;
+    display: flex;
+}
+
+    @media (max-width: 768px) {
+        
+        .sufraBertha__conteudo {
+            font-size: 14px;
+        }
+    }
+
+.sufraBertha p {
+    margin: 0 70px 0 0;
+    line-height: 25px;
+}
+
+    @media (max-width: 768px) {
+        
+        .sufraBertha p {
+            margin: 0 55px 0 0;
+            line-height: 20px;
+        }
+    }
+
+  
+.sufraBertha__img img {
+    max-width: 300px;
+    height: auto;
+}
+
+    @media (max-width: 768px) {
+        
+        .sufraBertha__img img {
+            max-width: 250px;
+            height: auto;
+        }
+    }
+
+    @media (max-width: 768px) {
+        
+        .sufraBertha__img img {
+            max-width: 180px;
+            height: auto;
+        }
+    }
+
+
+/*--- PARLAMENTAR ---*/
+
+.parlaBertha {
+    margin: 50px auto;
+}
+
+    @media (max-width: 1024px) {
+        
+        .parlaBertha {
+            padding: 0 60px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        
+        .parlaBertha {
+            padding: 0 60px;
+        }
+    }
+
+.parlaBertha__conteudo {
+    text-align: justify;
+    font-size: 16px;
+    font-weight: lighter;
+    display: flex;
+}
+
+    @media (max-width: 768px) {
+        
+        .parlaBertha__conteudo {
+            font-size: 14px;
+        }
+    }
+
+.parlaBertha p {
+    margin: 0 0 0 70px;
+    line-height: 25px;
+}
+
+    @media (max-width: 768px) {
+        
+        .parlaBertha p {
+            margin: 0 0 0 55px;
+            line-height: 20px;
+        }
+    }
+
+.parlaBertha__img img {
+    width: 300px;
+    height: auto;
+}
+
+    @media (max-width: 768px) {
+        
+        .parlaBertha__img img {
+            max-width: 250px;
+            height: auto;
+        }
+    }
+
+
+/*--- LEGADO ---*/
+
+.legadoBertha {
+    margin: 50px auto;
+}
+
+    @media (max-width: 1024px) {
+        
+        .legadoBertha {
+            padding: 0 60px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        
+        .legadoBertha {
+            padding: 0 60px;
+        }
+    }
+
+.legadoBertha__conteudo {
+    text-align: justify;
+    font-size: 16px;
+    font-weight: lighter;
+    display: flex;
+}
+
+    @media (max-width: 768px) {
+        
+        .legadoBertha__conteudo {
+            font-size: 14px;
+        }
+    }
+
+.legadoBertha p {
+    margin: 0 70px 0 0;
+    line-height: 25px;
+}
+
+    @media (max-width: 768px) {
+        
+        .legadoBertha p {
+            margin: 0 55px 0 0;
+            line-height: 20px;
+        }
+    }
+
+.legadoBertha__img img {
+    max-width: 300px;
+    height: auto;
+}
+
+    @media (max-width: 768px) {
+        
+        .legadoBertha__img img {
+            max-width: 250px;
+            height: auto;
+        }
+    }
+
+
+/* --- AUDIO --- */
+
+@media (max-width: 1024px) {
+
+    #audio-sobre {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 200px;
+        height: 50px;
+    }
+
+    #audio-cient {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 200px;
+        height: 50px;
+    }
+
+    #audio-sufra {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 200px;
+        height: 50px;
+    }
+
+    #audio-parla {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 200px;
+        height: 50px;
+    }
+
+    #audio-legado {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 200px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    #audio-sobre {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 150px;
+        height: 27px;
+    }
+
+    #audio-cient {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 150px;
+        height: 27px;
+    }
+
+    #audio-sufra {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 150px;
+        height: 27px;
+    }
+
+    #audio-parla {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 150px;
+        height: 27px;
+    }
+
+    #audio-legado {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 150px;
+        height: 27px;
+    }
+}
+
+
+/*--- SEPARADORES ---*/
+
+.separador {
+    background-color: #000;
+    background-size: cover; 
+    height: 200px;
+    width: 100%;
+    display: block;
+    opacity: 0;
+    margin: 100px 0 120px 0;
+}
+
+    @media (max-width: 1024px) {
+        
+        .separador {
+            height: 200px;
+            width: 100%;
+            margin-top: 70px;
+            margin-bottom: 70px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        
+        .separador {
+            height: 180px;
+            width: 100%;
+            margin-top: 60px;
+            margin-bottom: 60px;
+        }
+    }
+
+
+
+.separadorBertha {
+    background: url(../img/background1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100px;
+}
+
+.separadorBertha2 {
+    background: url(../img/background2.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100px;
+}
+
+.separadorBertha3 {
+    background: url(../img/background3.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100px;
+}
+
+.separadorBertha4 {
+    background: url(../img/background4.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100px;
+}
+
+
+/*--- CITACAO ---*/
+
+.secao-diva__primcitacao p {
+    transition: all .5s;
+    border: 2px solid #826994;
+    text-align: justify;
+    padding: 4rem;
+    font-family: 'Lobster', sans-serif;
+    font-size: 2.3rem;
+    color: #7e5c99;
+    margin-bottom: 10rem;
+    margin-right: 200px;
+    margin-left: 200px;
+    min-height: 100px;
+}
+
+.secao-diva__segcitacao p {
+    transition: all .5s;
+    border: 2px solid #826994;
+    text-align: justify;
+    padding: 4rem;
+    font-family: 'Lobster', sans-serif;
+    font-size: 2.3rem;
+    color: #7e5c99;
+    margin-bottom: 10rem;
+    margin-right: 200px;
+    margin-left: 200px;
+    min-height: 100px;
+}
+
+    @media (max-width: 1024px) {
+        
+        .secao-diva__primcitacao p {
+            margin-right: 60px;
+            margin-left: 60px;
+            margin-top: 60px;
+            margin-bottom: 60px;
+            font-size: 16px;
+            padding: 20px 20px
+        }
+        
+        .secao-diva__segcitacao p {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            margin-right: 60px;
+            margin-left: 60px;
+            margin-top: 60px;
+            margin-bottom: 60px;
+            font-size: 16px;
+            padding: 20px 20px
+        }
+    }
+
+    @media (max-width: 768px) {
+        
+        .secao-diva__primcitacao p {
+            margin-right: 60px;
+            margin-left: 60px;
+            margin-top: 60px;
+            margin-bottom: 60px;
+            font-size: 16px;
+            padding: 20px 20px
+        }
+
+        .secao-diva__segcitacao p {
+            display: flex;
+            align-items: center;
+            margin-right: 60px;
+            margin-left: 60px;
+            margin-top: 60px;
+            margin-bottom: 60px;
+            font-size: 16px;
+            padding: 20px 20px
+        }
+    }
+
+.secao-diva__citacao p:hover {
+    transform: scale(1.1);
+}
+
+
+/* BOTAO VER MAIS MULHERES */
+
+.secao-cta {
+    text-align: right;
+    padding: 4rem 4rem;
+    width: 50%;
+    padding-right: 160px;
+    padding-bottom: 80px;
+}
+
+    @media (max-width: 768px) {
+        
+        .secao-cta {
+            padding: 4rem 0rem;
+            padding-right: 0px;
+            width: 25%;
+            width: 300px;
+        }
+    }
+
+.secao-cta__btn {
+    padding: 10px 25px;
+    border-radius: 5px;
+    background-color: #826994;
+    color: #F4F0E4;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+    @media (max-width: 768px) {
+        
+        .secao-cta__btn {
+            
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 1.3rem;
+        }
+    }
+
+
+/* BOTÃO AUTORA */
+
+.secao-autora {
+    text-align: left;
+    padding: 4rem 4rem;
+    padding-left: 0px;
+    padding-bottom: 80px;
+    width: 50%;
+    width: 640px;
+}
+
+    @media (max-width: 768px) {
+        
+        .secao-autora {
+            margin-right: 110px;
+            padding: 4rem 4rem;
+            padding-left: 50px;
+            padding-bottom: 40px;
+            width: 25%;
+            width: 300px;
+        }
+    }
+
+.secao-autora__btn {
+    padding: 10px 25px;
+    border-radius: 5px;
+    background-color: #826994;
+    color: #F4F0E4;   
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+    @media (max-width: 768px) {
+        
+        .secao-autora__btn {
+            padding: 10px 25px;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 1.3rem;
+        }
+    }
+
+.secao-autora__btn:hover,
+.secao-autora__btn:focus {
+    transform: translateY(-1rem);
+    box-shadow: 0 10px 10px rgba(0,0,0,.2);
+    background-color: #692f92;
+}
+
+
+/* MODAL BOTAO AUTORA */
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #826994;
+}
+
+.modal-conteudo {
+    margin: 10% auto;
+    width: 60%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.7), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+    animation-name: modalopen;
+    animation-duration: var(--modal-duration);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+    @media (max-width: 768px) {
+        
+        .modal-conteudo {
+            margin-top: 150px;
+            width: 80%;
+        }
+    }
+
+.modal-header h2,
+.modal-footer h4 {
+  margin: 0;
+}
+
+.modal-header {
+    background: var(--modal-color);
+    padding: 15px;
+    color: #ffffff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+    @media (max-width: 768px) {
+        
+        .modal-header {
+            font-size: 12px;
+        }
+    }
+  
+.modal-body {
+    padding: 10px 30px;
+    background: #fff;
+    display: flex;
+}
+
+.modal-body img {
+    width: 20%;
+    height: 20%;
+}
+
+.modal-body p {
+    width: 100%;
+    padding-left: 2rem;
+    font-size: 16px;
+    text-align: justify;
+}
+
+    @media (max-width: 768px) {
+        
+        .modal-body p {
+            font-size: 12px;
+        }
+    }
+  
+.modal-footer {
+    background: var(--modal-color);
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.modal-footer a {
+    color: #fff;
+}
+
+    @media (max-width: 768px) {
+        
+        .modal-footer {
+            font-size: 11px;
+        }
+    }
+
+.modal-footer a:hover{
+    opacity: 0.8;
+}
+  
+.close {
+    color: #ccc;
+    float: right;
+    font-size: 30px;
+    color: #fff;
+}
+  
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+  
+@keyframes modalopen {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}
+  
+.secao-botoes{
+    display: flex;
+}
