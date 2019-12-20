@@ -136,7 +136,7 @@ section .intro .container {
     font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
     font-size: 4rem;
     color: #674582;
-    margin-top: 50px;
+    margin-top: 1em;
 }
 
 .secao-diva__intro {
@@ -145,7 +145,7 @@ section .intro .container {
     font-size: 1.8rem;
     line-height: 1.5;
     justify-content: center;
-    margin: 50px;
+    margin: 1.1em;
 
 }
 
@@ -156,8 +156,9 @@ section .intro .container {
     font-weight: 500;
     opacity: 0.85;
     padding: 20px 60px 0px 60px;
-    position: fixed;
     width: 100%;
+    height: 100%;
+    overflow: auto;
 }
 
 hr {
@@ -176,6 +177,8 @@ hr {
     background-image: url(../img/carolina-maria-de-jesus.jpg);
     margin: 30px;
     width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
 }
 
 .intro2 {
@@ -435,7 +438,6 @@ iframe {
     }
 
     .intro {
-        margin: auto;
         background-position: top;
     }
     
@@ -451,8 +453,23 @@ iframe {
         text-align:center;
     }
 }
+
+@media (min-width: 480px) and (max-width: 999px){
+    .intro {
+        background-repeat: repeat;
+    }
+
+    #obras {
+        margin-left: auto;
+    }
+
+    .secao-cta {
+        text-align:center;
+    }
+}
+
 /* TABLET */
-@media (min-width: 768px) {
+@media (min-width: 1000px) {
     /* --- NAV --- */
     .navegacao__itens {
       position: static;
@@ -502,33 +519,11 @@ iframe {
     font-size: 1.5rem;
   }
 
-   /* --- CONTEÚDO --- */
 
-  /* .paragrafo1 {
-    margin-left: auto;
-    margin-bottom: auto;
-  }
-
-  .intro {
-    margin: auto;
-    background-image: none;
-  }
-
-   #efeito {
-    margin-top: 40px;
-   }
-
-   #obras {
-    margin-left: auto;
-    }
-
-   .secao-cta {
-    text-align:center;
-    }
 }
 
 /* DESKTOP */
-@media (min-width: 1440px) {
+ @media (min-width: 1440px) {
     .navegacao__box {
       max-width: 80%;
     }
@@ -536,4 +531,4 @@ iframe {
         font-size: 1.5rem;
         margin: 0 1rem;
       }
-}      
+}
