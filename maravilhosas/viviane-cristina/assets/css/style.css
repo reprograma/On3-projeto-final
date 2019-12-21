@@ -1,0 +1,698 @@
+﻿/* Reset de CSS */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Configuração de tamanho da página */
+html {
+    font-size: 12px;
+}
+
+/* Configurações padrões do body */
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    letter-spacing: 0.05em;
+    height: 100vh;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.img-responsive {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: y;
+}
+
+h2{
+    font-family: 'Indie Flower', cursive;
+    font-size: 26px;
+    text-align: center;
+    padding: 2%;
+}
+
+/* Barra de navegação */
+.navegacao {
+    background-color: #0000006b;
+    color: white;
+    text-transform: uppercase;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+    padding: 1.5rem;
+    z-index: 99;
+    position: fixed;
+    width: 100%;
+    transition: all 1s;
+}
+
+.navegacao__logo {
+    max-width: 200px;
+}
+
+.navegacao__box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.navegacao__itens {
+    transition: all 1s;
+    position: absolute;
+    right: -800px;
+    top: 85px;
+    width: 100%;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.navegacao__itens.ativo {
+    display: block;
+    right: 0;
+    top: 85px;
+    width: 100%;
+    text-align: center;
+    padding: 3rem 0;
+    transition: right 0.5s;
+}
+
+.navegacao__itens li > a {
+    transition: all 0.5s;
+}
+
+.navegacao__itens li > a:hover {
+    color: #D9ABA0;
+}
+
+.navegacao__menu-hamburguer img {
+    border-radius: 5px;
+}
+
+.navegacao__nav {
+    margin-bottom: 3rem;
+    margin-right: 2rem;
+}
+
+.navegacao__nav li {
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+.navegacao__redes-sociais a {
+    margin: 0 1rem;
+}
+
+/* Ajustes de todas as seções para ocupar toda a viewport */
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    scroll-snap-align: center;
+}
+
+/* Cabeçalho */
+.header {
+    background-image: url(../img/teste.jpg);
+    background-size: cover;
+    filter: contrast(100%);
+    background-position-y: center;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    display: flex;
+    color: white;
+    margin-bottom: 1.5%;
+    width: 100%;
+    height: 100%;
+    min-height: 90vh;
+}
+
+.principal{
+    max-width: 100%;
+    width: 100%;
+}
+
+.titulo {
+    text-transform: uppercase;
+    font-weight: 600;
+    text-shadow: 0px 5px 10px black; 
+    text-align: center;
+    position: relative;
+    z-index: 98;
+    /* top: 490px; */
+    font-size: 4.5rem;
+}
+
+.titulo:after{
+    content: '|';
+    opacity: 1;
+    animation: pisca .7s infinite;
+} 
+
+/* Conteúdo do site */
+/* ABOUT */
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.descricao{
+    background-color: rgba(165,124,109, 1);
+    border-radius: 20px;
+    text-align: justify;
+    font-size: 1.4rem;
+    border-width:3px;
+    border-color: #ffffff;
+    border-style: dotted;
+    max-width: 50%;
+    padding: 3%;
+    color: #fff;
+}
+
+.img-about{
+    width: 30%;
+    padding-left: 2%;
+}
+
+/* ATIVISMO */
+.historia-ativismo{
+    max-width: 100%;
+}
+
+.descricao-ativismo{
+    background-color: rgba(95,107,115,1);
+    border-radius: 20px;
+    text-align: justify;
+    font-size: 1.4rem;
+    border-width:3px;
+    border-color: #ffffff;
+    border-style: dotted;
+    padding: 3%;
+    margin-left: 2%;
+    margin-right: 2%;
+    color: #fff;
+} 
+
+.declaracao{
+    font-family: 'Dancing Script', cursive;
+    font-size: 22px;
+}
+
+/* CAUSAS */
+.causas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+
+#slide { 
+    width: 35%; 
+    overflow: hidden; 
+    height: 400px;
+    margin-right: 50px;
+    box-shadow: 0 0 8px #000;
+    position: relative;
+}
+
+#slide img {
+    position: absolute;
+    z-index: 1;
+    display: none;
+    left: 0;
+}
+
+#slide p {
+    z-index:2;
+    position: absolute; 
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px; 
+    font-family: Arial; 
+    font-size: 14px; 
+    background: rgba(0,0,0,0.5);  
+    color: #fff;
+}
+
+.descricao-causas{
+    background-color: rgba(165,124,109, 1);
+    border-radius: 20px;
+    text-align: justify;
+    font-size: 1.2rem;
+    border-width:3px;
+    border-color: #ffffff;
+    border-style: dotted;
+    max-width: 55%;
+    padding: 3%;
+    color: #fff;
+}
+
+/* Vídeos */
+.eventos{
+    padding-top: 5%;
+}
+
+iframe{
+    width: 500px;
+    height: 350px;
+    margin: 20px;
+} 
+
+/* BOTÃO */
+.btn {
+  font-weight: bold;
+  padding: 1rem 1rem;
+  border-radius: 5px;
+  font-size: 1.2rem;;
+}
+
+.btn_autora {
+  color: white;
+  background-color: #5F6B73;
+  max-width: 400px;
+  display: block;
+  text-align: center;
+  transition: all 0.5s;
+  margin: 0 auto;
+}
+
+.btn_autora:hover,
+.btn_autora:focus {
+  transform: translateY(-1rem);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  background-color: #A67C6D;
+}
+
+.btn_autorao:active {
+  transform: translateY(-3rem);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.btn_center {
+  margin: 0 auto;
+}
+
+/* --- FOOTER --- */
+.rodape {
+    background-color: #183140;
+    color: white;
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0.8rem;
+}
+  
+.rodape__principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem 0;
+    max-width: 100%;
+    width: 80%;
+}
+  
+.rodape__principal > * {
+    margin: 1rem 0;
+}
+  
+.rodape__navegacao > li {
+    font-size: 1.1rem;
+    margin: 1rem;
+}
+  
+.rodape__navegacao a {
+    transition: all 0.5s;
+}
+  
+.rodape__navegacao a:hover {
+    color: #D9ABA0;
+}
+  
+.rodape__logo {
+    max-width: 200px;
+}
+
+.rodape__redes-sociais a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s;
+}
+
+.rodape__redes-sociais a:hover {
+    color: #D9ABA0;
+}
+
+.rodape__redes-sociais img {
+    max-width: 10px;
+    margin-right: 0.5rem;
+}
+
+.rodape__redes-sociais span {
+    display: flex;
+    font-size: 1.5rem;
+}
+
+.rodape__cc {
+    width: 100%;
+    background-color: #0D1D26;
+    font-size: 1rem;
+    opacity: 0.5;
+    text-align: center;
+}
+
+/*** MEDIA QUERIES ***/
+/* CELULAR */
+@media (min-width: 360px) {
+    *{
+        margin: 0;
+        padding: 0;;
+    }
+
+    section{
+        width: 100%;
+        height: auto;
+    }
+
+    .conteudo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .titulo {
+        font-size: 2rem;
+        top: 450px;
+    }
+
+    .about, .causas, .eventos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5%;
+    }
+
+    .descricao{
+        max-width: 90%;
+        padding: 1%;
+        font-size: 1rem;
+    }
+
+    .img-about{
+        width: 100%;
+        padding-left: 2%;
+    }
+
+    .descricao-ativismo{
+        font-size: 1rem;
+        max-width: 90%;
+        padding: 1%;
+        margin:0;
+    } 
+
+    .declaracao{
+        font-family: 'Dancing Script', cursive;
+        font-size: 1.5rem;
+    }
+
+    #slide { 
+        max-width: 100%;
+        width: 100%;
+        margin-bottom: 5%;
+        margin-left: 15%;
+    } 
+
+    .descricao-causas{
+        font-size: 1rem;
+        max-width: 90%;
+        padding: 1%;
+    }
+
+    iframe{
+        max-width: 90%;
+        margin-bottom: 1%; 
+    } 
+    
+    .rodape__logo img {
+        max-width: 250px;
+    }
+
+    .rodape__navegacao > li {
+        font-size: 0.7rem;
+    } 
+
+    .rodape__redes-sociais span{
+        font-size: 0.7rem;
+    } 
+}
+/* TABLET */
+@media (min-width: 768px) {
+    .container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .navegacao__itens {
+        position: static;
+        display: flex;
+        align-items: center;
+        padding: 0;
+        width: auto;
+    } 
+
+    .navegacao__logo {
+        max-width: 200px;
+    }
+
+    .navegacao__nav {
+        margin-bottom: 0;
+    }
+
+    .navegacao__itens ul {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    } 
+
+    .navegacao__itens li {
+        font-size: 1rem;
+        margin: 0 0.4rem;
+    }
+
+    .navegacao__redes-sociais a {
+        margin: 0.4rem;
+    }
+
+    .navegacao__menu-hamburguer {
+        display: none;
+    }
+    
+    section{
+        width: 100%;
+        height: auto;
+    }
+    
+    .titulo {
+        top: 750px;
+        font-size: 3rem;
+    }
+
+    .img-about{
+        width: 60%;
+        padding-left: 2%;
+    }
+
+    #slide { 
+        width: 65%;
+        margin-bottom: 5%;
+        margin-left: 30%;
+        margin-right: 30%;
+    } 
+
+    iframe{
+        width: 100%;
+        margin-bottom: 2%; 
+    } 
+  
+    /* --- FOOTER --- */
+    .rodape {
+      padding-top: 0;
+    }
+  
+    .rodape__principal {
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+    }
+  
+    .rodape__logo img {
+      max-width: 200px;
+    }
+  
+    .rodape__navegacao > li {
+      font-size: 1rem;
+    }
+  }
+  
+@media (min-width: 1024px) {
+    .titulo {
+        top: 1000px;
+        font-size: 4.5rem;
+    }
+
+    .about, .causas{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .descricao{
+        font-size: 1.4rem;
+        max-width: 60%;
+        padding: 3%;
+    }
+
+    .img-about{
+        width: 30%;
+    }
+
+    .historia-ativismo{
+        margin-top: 5%;
+    }
+
+    .declaracao{
+        font-size: 16px;
+    }
+
+    #slide { 
+        width: 35%;
+        margin: 2%;
+    } 
+
+    .descricao-causas{
+        max-width: 50%;
+        width: 60%;
+        margin:0;
+    }
+
+    iframe{
+        width:100%;
+        margin-bottom: 1%; 
+    } 
+}
+  
+  /* DESKTOP */
+  @media (min-width: 1300px) {
+    .titulo {
+        top: 550px;
+        font-size: 4.5rem;
+    }
+
+    section{
+        width: 100%;
+        height: 100vh;
+    }
+    
+    .descricao{
+        font-size: 1.4rem;
+        max-width: 50%;
+        padding: 3%;
+    }
+    
+    
+    .descricao-ativismo{
+        font-size: 1.4rem;
+        padding: 3%;
+    } 
+    
+    .declaracao{
+        font-family: 'Dancing Script', cursive;
+        font-size: 22px;
+    }
+    
+    
+    .descricao-causas{
+        font-size: 1.3rem;
+        max-width: 55%;
+        padding: 3%;
+    } 
+    
+    /* Vídeos */
+    .eventos{
+        padding-top: 5%;
+    }
+    
+    iframe{
+        width: 500px;
+        height: 350px;
+        /* margin: 20px; */
+    } 
+    
+    .rodape__redes-sociais span {
+        font-size: 1.5rem;
+    }
+    
+    .rodape__cc {
+        font-size: 1rem;
+    }
+    
+
+
+    /* .navegacao__box {
+      max-width: 80%;
+    }
+    .header {
+      min-height: 90vh;
+      background-position-y: 25%;
+    }
+    .navegacao__itens li {
+      font-size: 1.5rem;
+      margin: 0 1rem;
+    }
+    .principal {
+      max-width: 650px;
+    } */
+  } 
+  
+
+
+
+
+
