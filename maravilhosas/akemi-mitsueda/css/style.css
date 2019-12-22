@@ -1,0 +1,959 @@
+/* --- MOBILE FIRST - iPhone 7 - width < 768px --- */
+/* --- GERAL --- */
+/*
+unidades preferidas para esse CSS
+margin, padding: rem
+font-size: rem
+width: %
+max-width: % ou px
+*/
+
+
+
+/*************** PROJETO FINAL BRENÉ BROWN **************/
+
+/* GERAL */
+
+.links {
+  color: #ad33b8;
+  font-weight: bold;
+  transition: 0.7s;
+}
+
+.links:hover {
+  color: #fff;
+  background: #ad33b8;
+  text-decoration: none;
+}
+
+.centralizado {
+  text-align: center;
+}
+
+.titulo {
+  font-family: Georgia, serif;
+  font-weight: bold;
+  font-size: 4rem;
+  color: #188F92;
+  margin-bottom: 1.5rem;
+}
+
+.subtitulo {
+  font-family: Georgia, serif;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-top: 4rem;
+  color: #188F92;
+}
+
+.texto {
+  margin-bottom: 3rem;
+}
+
+.italico {
+  font-style: italic;
+}
+
+#sobre,
+#video,
+#livros,
+#ilustracao,
+#citacoes {
+  padding-top: 13rem;
+}
+
+i {
+  font-size: 3rem;
+  color: #1f2f50;
+  margin: 0 1.2rem;
+  transition: 0.7s;
+}
+
+i:hover {
+  color: #893E90;
+}
+
+
+/* BANNER */
+
+.banner {
+  background-image: url(../img/brene-banner.jpg);
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: auto;
+  transition: 0.7s;
+}
+
+.titulo-principal {
+  color: #fff;
+  font-family: Georgia, serif;
+  font-size: 7.5rem;
+  font-weight: bold;
+  line-height: 7rem;
+  text-shadow:
+    5px 3px 1px #188F92,
+    8px 6px 1px #893E90,
+    11px 9px 1px #1f2f50;
+    cursor: default;
+  padding-top: 16vh;
+  padding-left: 3vw;
+  transition: 0.7s;
+}
+
+.subtitulo-principal {
+  color: #fff;
+  font-size: 1.5rem;
+  text-shadow: 2px 2px 1px #1f2f50;
+  padding-top: 2rem;
+  padding-left: 3vw;
+  transition: 0.7s;
+}
+
+
+/* NUVEM DE PALAVRAS */
+
+.nuvem-de-palavras {
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.1;
+  max-width: 52vw;
+  height: 20vh;
+  margin-top: 5rem;
+  padding: 0 2rem;
+  cursor: default;
+}
+
+.nuvem-de-palavras-1 {
+  font-size: 5rem;
+  font-family: 'Dancing Script', cursive;
+}
+
+.nuvem-de-palavras-2 {
+  font-size: 3.8rem;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.nuvem-de-palavras-3 {
+  font-size: 3.2rem;
+  font-family: 'Amatic SC', cursive;
+}
+
+.nuvem-de-palavras-4 {
+  font-size: 2.2rem;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+/* Transparência da nuvem de palavras */
+.opacidade-15 {
+  opacity: 0.15;
+  transition: 0.7s;
+}
+
+.opacidade-15:hover { opacity: 1; }
+
+.nuvem-de-palavras-1:hover { font-size: 5.2rem; }
+.nuvem-de-palavras-2:hover { font-size: 4rem; }
+.nuvem-de-palavras-3:hover { font-size: 3.4rem; }
+.nuvem-de-palavras-4:hover { font-size: 2.4rem; }
+
+
+/* SOBRE */
+
+.sobre-img {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  margin: 0 auto;
+}
+
+#sobre .titulo {
+  margin-top: 3rem;
+}
+
+.texto {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+}
+
+
+/* VÍDEO */
+
+#video .titulo {
+  line-height: 4rem;
+}
+
+
+/* CITAÇÕES */
+
+#citacoes {
+  max-width: 900px;
+  display: block;
+  margin: 0 auto;
+  transition: 0.7s;
+}
+
+#citacoes p {
+  display: table-cell;
+  vertical-align: middle;
+  font-family: Georgia, serif;
+  background: linear-gradient(to top right, #333F57 20%, #893E90);
+  color: #fff;
+  font-size: 2rem;
+  padding: 4rem 12rem;
+}
+
+
+/* LIVROS */
+
+#livros .row div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.livro {
+  box-shadow: 0px 5px 12px #999;
+  transition: 0.7s all;
+  margin: 2rem auto;
+  max-height: 400px;
+}
+
+.livro:hover {
+  transform: scale(1.15);
+}
+
+
+/* AUTORA */
+
+#autora {
+  margin-top: 10rem;
+}
+
+.btn {
+  display: block;
+  margin: 0 auto;
+  background: #1f2f50;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 1rem 3rem;
+  border-radius: 5px;
+  font-size: 1.3rem;
+  transition: 0.7s;
+}
+
+.btn:hover {
+  background: #893E90;
+  color: #fff;
+}
+
+.modal-body img {
+  display: block;
+  border-radius: 50%;
+  width: 200px;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+.modal-body p {
+  margin-top: 2em;
+  text-align: center;
+}
+
+.modal-body {
+  font-size: 1.5rem;
+  padding: 2.5rem;
+}
+
+.modal-footer .btn {
+  font-size: 1.1em;
+  font-weight: 100;
+  padding: 1rem 2rem;
+  border: 0;
+}
+
+
+/* PARALLAX */
+.bg-colorido-01 {
+  width: 350px;
+  height: 500px;
+  background: linear-gradient(to top right, #333F57 20%, #893E90);
+  position: absolute;
+  left: -35px;
+  z-index: -1;
+}
+
+
+.parallax {
+  transition: initial;
+}
+
+
+/* MEDIA QUERIES */
+
+@media(min-width: 990px) {
+  .ignorar-br br {
+    display: none;
+  }
+}
+
+@media(max-width: 1199px) {
+  .nuvem-de-palavras {
+    max-width: 54vw;
+    padding: 0 1rem;
+    margin-top: 3rem;
+  }
+}
+
+@media(max-width: 989px) {
+  .banner {
+    background-image: url(../img/brene-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: 65% 0;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+  }
+
+  .titulo-principal,
+  .subtitulo-principal {
+    position: relative;
+    top: 26%;
+  }
+
+  .nuvem-de-palavras {
+    display: none;
+  }
+}
+
+@media(max-width: 768px) {
+  .titulo-principal,
+  .subtitulo-principal {
+    top: 50%;
+  }
+
+  #citacoes p {
+    padding: 3rem 9rem;
+  }
+}
+
+@media(max-width: 499px) {
+  .banner {
+    background-position: 77% 0;
+  }
+
+  .titulo-principal,
+  .subtitulo-principal {
+    top: 47%;
+  }
+
+  #citacoes p {
+    padding: 3rem 5.5rem;
+  }
+}
+
+/*************** PROJETO FINAL AKEMI - FIM **************/
+
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px; /* definir uma font-size padrão */
+}
+
+body {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+
+
+
+
+
+
+/* define que as imagens tem que ter o tamanho máximo da div mãe */
+.img-responsive {
+  width: 100%;
+}
+
+/* define o tamanho da caixa */
+.repro__container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+}
+
+/* --- BOTAO --- */
+ 
+
+.btn_roxo {
+  color: white;
+  background-color: #c083b9;
+  display: block;
+  max-width: 250px;
+  text-align: center;
+  transition: all 0.5s;
+  margin: 0 auto;
+}
+
+.btn_roxo:hover,
+.btn_roxo:focus {
+  transform: translateY(-1rem);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  background-color: rgb(192, 156, 188);
+}
+
+.btn_roxo:active {
+  transform: translateY(-3rem);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.btn_center {
+  margin: 0 auto;
+}
+
+/* --- NAV --- */
+.navegacao {
+  background-color: #6745826b;
+  color: white;
+  text-transform: uppercase;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+  padding: 1.5rem;
+  z-index: 99;
+  position: fixed;
+  width: 100%;
+  transition: all 1s;
+}
+
+.navegacao__logo {
+  max-width: 200px;
+}
+
+.navegacao__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navegacao__itens {
+  transition: all 1s;
+  position: absolute;
+  right: -800px;
+  top: 85px;
+  width: 100%;
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.navegacao__itens.ativo {
+  display: block;
+  right: 0;
+  top: 85px;
+  width: 100%;
+  text-align: center;
+  padding: 3rem 0;
+  transition: right 0.5s;
+}
+
+.navegacao__itens li > a {
+  transition: all 0.5s;
+}
+
+.navegacao__itens li > a:hover {
+  color: #c083b9;
+}
+
+.navegacao__menu-hamburguer img {
+  border-radius: 5px;
+}
+
+.navegacao__nav {
+  margin-bottom: 3rem;
+  margin-right: 2rem;
+}
+
+.navegacao__nav li {
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+
+.navegacao__redes-sociais a {
+  margin: 0 1rem;
+}
+
+/* --- HEADER --- */
+.header {
+  min-height: 70vh;
+  height: 480px;
+  background: linear-gradient(
+      to top,
+      rgba(3, 3, 3, 0.781) 0,
+      rgba(196, 61, 223, 0.418) 50%,
+      black 100%
+    ),
+    url(../img/reprograma-244.jpg);
+  background-size: cover;
+  filter: contrast(100%);
+  background-position-y: center;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  padding: 11rem 2rem 5rem 2rem;
+  color: white;
+}
+
+.principal__titulo {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  font-weight: 900;
+  text-shadow: 0px 5px 15px black;
+}
+
+.principal__sub {
+  font-weight: 300;
+  margin: 2rem 0 3rem 0;
+  font-size: 1.8rem;
+  text-shadow: 0px 0px 15px black;
+}
+
+/* --- SECTION MARAVILHOSAS --- */
+.maravilhosas__titulo {
+  font-family: "Roboto Slab", Arial, Helvetica, sans-serif;
+  color: #63458a;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.maravilhosas__box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  color: #63458a;
+}
+
+.maravilhosas__perfil {
+  max-width: 120px;
+  margin: 2rem;
+}
+
+.maravilhosas__perfil img {
+  background-color: #63458a;
+  border-radius: 10px;
+  min-height: 125px;
+  object-fit: cover;
+}
+
+.maravilhosas__perfil a img {
+  transition: all 0.5s;
+}
+
+.maravilhosas__perfil a:hover {
+  text-decoration: underline;
+}
+
+.maravilhosas__perfil a:hover img {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* --- FOOTER --- */
+.rodape {
+  background-color: #323534;
+  color: white;
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 0.8rem;
+  margin-top: 12em;
+}
+
+.rodape__principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+.rodape__principal > * {
+  margin: 1rem 0;
+}
+
+.rodape__navegacao > li {
+  font-size: 1.1rem;
+  margin: 1rem;
+}
+
+.rodape__navegacao a {
+  transition: all 0.5s;
+}
+
+.rodape__navegacao a:hover {
+  color: #c083b9;
+}
+
+.rodape__logo {
+  max-width: 200px;
+}
+
+.rodape__redes-sociais a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s;
+}
+
+.rodape__redes-sociais a:hover {
+  color: #c083b9;
+}
+
+.rodape__redes-sociais img {
+  max-width: 10px;
+  margin-right: 0.5rem;
+}
+
+.rodape__redes-sociais span {
+  display: flex;
+  font-size: 1.5rem;
+}
+
+.rodape__cc {
+  width: 100%;
+  background-color: #292a2a;
+  font-size: 1rem;
+  opacity: 0.5;
+  text-align: center;
+}
+
+/* --- PERFIL DIVA--- */
+.secao-diva {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 2rem;
+  margin: 0 auto;
+}
+
+.secao-diva__titulo {
+  text-align: center;
+  font-family: "Roboto Slab", Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  color: #674582;
+}
+
+.secao-diva__titulo_esq {
+  margin-right: auto;
+}
+
+.secao-diva p {
+  color: #63458a;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+.secao-diva__introducao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.secao-diva__foto-perfil {
+  max-width: 18rem;
+  margin: 1rem;
+}
+
+.secao-diva__citacao p {
+  transition: all 0.5s;
+  font-weight: bold;
+  border: 1px solid #63458a;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.7rem;
+}
+
+.secao-diva__citacao p:hover {
+  transform: scale(1.1);
+}
+
+.secao-diva__historia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5rem 0;
+}
+
+/* --- AUTORA --- */
+.secao-autora {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.secao-autora__container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  border-radius: 5px;
+}
+
+.arrow {
+  cursor: pointer;
+  width: 0;
+  height: 0;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #63458a;
+  transition: all 0.5s;
+}
+
+.arrow-close {
+  cursor: pointer;
+  transition: all 0.5s;
+  width: 0;
+  height: 0;
+  border-bottom: 10px solid #63458a;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid transparent;
+  margin-bottom: 25px;
+}
+
+.secao-autora__foto a:hover {
+  opacity: 0.8;
+}
+
+.secao-autora__dados {
+  color: #63458a;
+}
+
+.secao-autora__dados p {
+  margin: 15px;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.secao-autora__dados span {
+  font-size: 28px;
+}
+
+.secao-autora a {
+  font-style: italic;
+  text-decoration: underline;
+}
+.secao-autora__about {
+  background-color: rgb(248, 205, 248);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+}
+.secao-autora__about img {
+  border-radius: 8px;
+  width: 75px;
+  height: 110px;
+  margin: 10px;
+}
+
+.secao-autora__about p {
+  line-height: 23px;
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+.closed {
+  display: none;
+  transition: all 1s;
+}
+.opened {
+  display: flex;
+  transition: all 1s;
+}
+
+.secao-cta {
+  text-align: right;
+  padding: 4rem 4rem;
+}
+
+.secao-cta__btn {
+  padding: 10px 25px;
+  border-radius: 5px;
+  background-color: #674582;
+  color: white;
+  font-size: 20px;
+}
+
+.secao-cta__btn:hover {
+  opacity: 0.8;
+}
+/*** MEDIA QUERIES ***/
+/* TABLET */
+@media (min-width: 768px) {
+  /* --- NAV --- */
+  .navegacao__itens {
+    position: static;
+    display: flex;
+    padding: 0;
+    width: auto;
+  }
+
+  .navegacao__nav {
+    margin-bottom: 0;
+  }
+
+  .navegacao__itens ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .navegacao__itens li {
+    font-size: 1.2rem;
+    margin: 0 0.6rem;
+  }
+
+  .navegacao__menu-hamburguer {
+    display: none;
+  }
+
+  /* --- HEADER --- */
+  .header {
+    min-height: 75vh;
+    background-size: cover;
+    background-position-y: 0;
+    text-align: left;
+    padding: 5rem 10rem;
+  }
+
+  .principal__titulo {
+    font-size: 2.9rem;
+  }
+
+  .principal__sub {
+    font-size: 1.8rem;
+  }
+
+  .principal__btn {
+    margin: 0;
+  }
+
+  /* --- SECTION MARAVILHOSAS --- */
+  .maravilhosas {
+    padding: 4rem 0;
+  }
+
+  .maravilhosas__box > div {
+    max-width: 200px;
+    margin: 5rem;
+  }
+
+  .maravilhosas__perfil img {
+    min-height: 220px;
+  }
+  .maravilhosas__perfil p {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+
+  /* --- FOOTER --- */
+  .rodape {
+    padding-top: 0;
+  }
+
+  .rodape__principal {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+
+  .rodape__logo img {
+    max-width: 250px;
+  }
+
+  .rodape__navegacao > li {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .principal {
+    max-width: 650px;
+  }
+  .secao-diva__introducao {
+    flex-direction: row;
+    margin: 3rem 0;
+  }
+  .secao-diva__foto-perfil {
+    max-width: 100%;
+    margin: 0 4rem;
+  }
+  .secao-diva p {
+    font-size: 1.7rem;
+  }
+  .secao-diva__citacao p {
+    font-size: 2.5rem;
+    padding: 4rem;
+  }
+  .secao-autora__about {
+    width: 400px;
+    flex-direction: row;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+  .secao-autora__dados {
+    margin: 0 3rem;
+  }
+}
+
+/* DESKTOP */
+@media (min-width: 1440px) {
+  .navegacao__box {
+    max-width: 80%;
+  }
+  .header {
+    min-height: 90vh;
+    background-position-y: 25%;
+  }
+  .navegacao__itens li {
+    font-size: 1.5rem;
+    margin: 0 1rem;
+  }
+  .principal {
+    max-width: 650px;
+  }
+}
