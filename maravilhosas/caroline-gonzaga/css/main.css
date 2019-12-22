@@ -1,0 +1,162 @@
+.header {
+  min-height: 70vh;
+  height: 480px;
+  background: linear-gradient(
+    to top,
+    rgba(3, 3, 3, 0.781) 0,
+    rgba(196, 61, 223, 0.418) 50%,
+    black 100%
+  ),url(../img/Imagem\ 20.jpg);
+  background-size: cover;
+  filter: contrast(100%);
+  background-position-y: center;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  padding: 11rem 2rem 5rem 2rem;
+  color: white;
+}
+
+.p--default{
+  font-size: 20px;
+  color: black;
+}
+
+.biography, .about{
+  background-color: white;
+  padding: 100px 100px 10px;
+  position: relative;
+}
+
+
+
+.biography__text-typed{
+  text-align: center;
+  color: black;
+  font-size: 20px;
+}
+
+.biography__author{
+  text-align: right;
+  margin: 100%;
+  color: white;
+  font-size: 55px;
+}
+
+.achievements{
+  padding: 100px 0;
+}
+
+.achievements__card{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card{
+  position: relative;
+  height: 200px;
+  margin: 1200px;
+  width: 300px;
+}
+
+.card__back{
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  background-color: white;
+  text-align: left;
+  padding: 30px;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.card__back:hover{
+   opacity: 1;
+}
+
+.card__front{
+  position: relative;
+  text-align: center;
+  background-color: black;
+  height: 100%;
+  width: 100%;
+ 
+}
+
+.graduation{
+  width: 160px;
+  margin-top: 20px;
+}
+
+.satellite{
+  width: 275px;
+  margin-top: 20px;
+}
+
+.illusion{
+  width: 238px;
+  margin-top: 30px;
+}
+
+.tridimensional{
+  width: 280px;
+  margin-top: 30px;
+}
+
+.about{
+  text-align: center;
+  padding: 100px 0;
+}
+
+.about__title, .about__link{
+  color: purple;
+}
+
+.about__box{
+  display: none;
+}
+
+.about__image{
+  background-color: cornsilk;
+  border: 3px dotted purple;
+  margin: 30px;
+  border-radius: 100%;
+  height: 157px;
+  object-fit: cover;
+  width: 157px;
+}
+
+.about__plus{
+  width: 30px;
+}
+
+@media(min-width: 1025px){
+  .biography__image{
+    position: absolute;
+    bottom: -3px;
+  }
+  .biography__text{
+    width: 50%;
+    margin-left: 50%;
+  }
+}
+
+@media(max-width: 1024px){
+  .biography__image{
+    text-align: center;
+    padding: 20 px;
+  }
+  .biography__author{
+    text-align: center;
+  }
+  .biography__text-typed{
+    margin: 30px;
+    text-align: left;
+  }
+}
