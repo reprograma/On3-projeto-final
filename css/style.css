@@ -45,7 +45,17 @@ li {
   width: 100%;
   max-width: 960px;
 }
+.container2 {
+  margin: 0 auto;
+  width: 33%;
+  max-width: 470px;
+}
 
+.container3 {
+  margin: 0 auto;
+  width: 33%;
+  max-width: 470px;
+}
 /* --- BOTAO --- */
 
 .btn {
@@ -194,6 +204,12 @@ li {
   font-size: 2rem;
   text-align: center;
 }
+.maravilhosas__titulo2 {
+  font-family: "Roboto Slab", Arial, Helvetica, sans-serif;
+  color: #63458a;
+  font-size: 1rem;
+  text-align: center;
+}
 
 .maravilhosas__box {
   display: flex;
@@ -228,6 +244,7 @@ li {
 .maravilhosas__perfil a:hover img {
   box-shadow: 0 3px 10px rgba(0,0,0,.2);
 }
+
 
 /* --- FOOTER --- */
 .rodape {
