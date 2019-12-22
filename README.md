@@ -1,6 +1,7 @@
 # Projeto M-de-Maravilhosa
 
-Projeto final do Bootcamp Online de Front-end.
+Projeto final do Bootcamp Online de Front-end disponível para consulta através do link:
+https://reprograma.github.io/On3-projeto-final/index.html
 
 ## Sobre o projeto
 
