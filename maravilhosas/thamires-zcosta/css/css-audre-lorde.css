@@ -1,0 +1,219 @@
+/* --- MOBILE FIRST - iPhone 7 - width < 768px --- */
+/* --- GERAL --- */
+/* HEADER */
+
+.header-audrelorde {
+  background-image: url(../img/a-l/audre-lorde.jpg);
+  background-position: center;
+  display: flex;
+  background-size: cover;
+  align-items: flex-end;
+  justify-content: right;
+  padding: 0 2rem;
+  color: white;
+  min-height: 80vh;
+  height: 635px;
+}
+
+h1 {
+  font-size: 7rem;
+  font-family: 'EB Garamond', serif;
+  color: whitesmoke;
+  margin-top: 0px;
+  margin-left: 5%;
+  }
+
+/* BIOGRAFIA e OBRAS */
+
+.bio-audrelorde{
+display: block;
+margin-right: 10%;
+margin-left: 10%;
+margin-bottom: 3%;
+margin-top: 4%;
+}
+
+p{
+font-size: 1rem;
+font-family: 'Roboto Slab', regular, serif;
+text-align: justify;
+text-justify: inter-word;
+}
+
+h2{
+font-size: 2rem;
+font-family: 'Roboto Slab', serif;
+color: #3e3d3d;
+margin-top: 0;
+}
+
+.h2-cover{
+color: white;
+margin: 10%;
+}
+
+p{
+font-size: 1.3rem;
+line-height: 1.5;
+}
+
+/* IMAGEM FIXA e CITAÇÃO */
+
+.image--container{
+position: relative;
+width:100%;
+height: auto;
+padding:2em 2em 2em 2em;
+}
+
+.cover{
+position: absolute;
+top:0;
+left:0;
+width:100%;
+height: 100%;
+z-index: -1;
+}
+
+.c1{
+background-image: url("../img/a-l/audre-lorde-02.jpg"); 
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover; 
+}
+
+/* Section 3 - Hipótese */
+.formacao-audrelorde{
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-bottom: 3%;
+  margin-top: 4%;
+display: block;
+}
+
+/* Section 4 - Slideshow */
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 720px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.5s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 3 3 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-family: 'Roboto Slab', serif;
+  font-size: 14px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: whitesmoke;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* Referências */
+
+.ref-container{
+background: whitesmoke;
+padding: 24px;
+margin: 10%;
+}
+
+h3{
+color: white;
+font-size: 1.5rem;
+margin-top: 0;
+}
+
+.ref-container a{
+font-size: 1.5rem;
+}
+
+/* Versão DESKTOP */
+@media(min-width:768px) and (max-width:2010px){
+.bio-audrelorde, .formacao-audrelorde{
+  display: flex;
+  justify-content: space-around;
+}
+.bio-audrelorde div, .formacao-audrelorde div{
+  width: 48%;
+}
+}
