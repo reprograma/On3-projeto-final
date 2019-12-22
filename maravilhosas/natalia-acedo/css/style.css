@@ -1,0 +1,686 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px; /* definir uma font-size padrão */
+}
+
+body {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  padding: 0;
+}
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.lista {
+  list-style: none;
+}
+
+/* define que as imagens tem que ter o tamanho máximo da div mãe */
+.img-responsive {
+  width: 100%;
+}
+
+/* define o tamanho da caixa */
+.container {
+  margin: 0 auto;
+  width: 65%;
+}
+
+/* --- NAV --- */
+.navegacao {
+  background-color: #6745826b;
+  color: white;
+  text-transform: uppercase;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+  padding: 1.5rem;
+  z-index: 99;
+  position: fixed;
+  width: 100%;
+  transition: all 1s;
+}
+
+.navegacao__logo {
+  max-width: 200px;
+}
+
+.navegacao__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navegacao__itens {
+  transition: all 1s;
+  position: absolute;
+  right: -800px;
+  top: 85px;
+  width: 100%;
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.navegacao__itens.ativo {
+  display: block;
+  right: 0;
+  top: 85px;
+  width: 100%;
+  text-align: center;
+  padding: 3rem 0;
+  transition: right 0.5s;
+}
+
+.navegacao__itens li > a {
+  transition: all 0.5s;
+}
+
+.navegacao__itens li > a:hover {
+  color: #c083b9;
+}
+
+.navegacao__menu-hamburguer img {
+  border-radius: 5px;
+}
+
+.navegacao__nav {
+  margin-bottom: 3rem;
+  margin-right: 2rem;
+}
+
+.navegacao__nav li {
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+
+.navegacao__redes-sociais a {
+  margin: 0 1rem;
+}
+
+
+.navLista {
+  list-style: none;
+}
+
+
+/* --- HEADER --- */
+.header {
+  min-height: 70vh;
+  height: 480px;
+  background: linear-gradient(
+      to top,
+      rgba(3, 3, 3, 0.781) 0,
+      rgba(196, 61, 223, 0.418) 50%,
+      black 100%
+    ),
+    url(../src/nise.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+  text-align: left;
+  padding: 11rem 2rem 5rem 2rem;
+  color: white;
+}
+
+  .navegacao__itens ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .citacao {
+    font-size: 25px;
+    font-style: italic;
+    margin: 60px 150px;
+    line-height: 50px;
+    border-left: 4px dotted #000;
+    padding-left: 50px;
+  }
+
+  .citacao:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+  }
+
+
+
+/*--- BIOGRAFIA ---*/
+
+.biografia {
+  margin-top: 75px;
+}
+
+.bioNise{
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+}
+
+.descricaoBio {
+  width: 50%;
+  
+  display: flex;
+  align-items: center;
+
+}
+
+.textoBio {
+
+  font-size: 20px;  
+  margin: 45px;
+}
+
+.bioDivImagem {
+
+  width:50%;
+  display: flex;
+  align-items: center;
+}
+
+.bioImagem {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+
+/* --- MUSEU --- */
+
+.museuInconsciente {
+  background-color:rgba(216, 211, 200, 0.993);
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.adelina {
+  display: flex;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top:50px;
+}
+
+.barros {
+  display: flex;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.adelina:hover, .barros:hover {
+  background-color: rgba(145, 127, 90, 0.993);
+}
+
+.adelinaDivImagem, .barrosDivImagem {
+  display: flex;
+  align-items: center;
+}
+
+.adelinaImagem, .barrosImagem{
+  height: 170px;
+  border-radius: 120px;  
+  object-fit: cover;
+  margin-left: 320px;
+}
+
+
+.adelinaBio,.barrosBio{
+  width: 100%;
+  justify-content: center;
+  margin-left: 50px;
+}
+
+.adelinaTexto, .barrosTexto {
+  display: flex;
+  text-justify: center;
+  text-align: justify;
+  margin-right: 550px;
+}
+
+
+.pertuis {
+  display: flex;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.pertuis:hover {
+  background-color:  rgba(145, 127, 90, 0.993);
+}
+.pertuisBio {
+  margin-right: 50px;
+}
+
+.nomePertuis {
+  text-align: right;
+}
+
+.pertuisTexto {
+  display: flex;
+  text-justify: center;
+  text-align: justify;
+  
+  margin-left: 550px;
+}
+
+.pertuisDivImagem {
+  display: flex;
+  align-items: center;
+}
+
+.pertuisImagem {
+  height: 170px;
+  border-radius: 120px;  
+  object-fit: cover;
+  margin-right: 320px;
+}
+
+
+
+
+/* --- CASA DAS PALMEIRAS --- */
+.palmeiras {
+  margin-top: 70px;
+}
+
+.casaPalmeiras {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+.casaDivImagem { 
+  width:50%;
+}
+
+.casaImagem {
+  width: 100%;
+}
+
+
+.descricaoCasa {
+  width:50%;
+  display: flex;
+  align-items: center;
+
+}
+
+.textoCasa {
+  font-size: 20px;  
+  margin: 60px;
+  padding: 10px; 
+}
+
+
+
+/* --- FOOTER --- */
+.rodape {
+  background-color: #323534;
+  color: white;
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 0.8rem;
+}
+
+.rodape__principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+.rodape__principal > * {
+  margin: 1rem 0;
+}
+
+.rodape__navegacao > li {
+  font-size: 1.1rem;
+  margin: 1rem;
+}
+
+.rodape__navegacao a {
+  transition: all 0.5s;
+}
+
+.rodape__navegacao a:hover {
+  color: #c083b9;
+}
+
+.rodape__logo {
+  max-width: 200px;
+}
+
+.rodape__redes-sociais a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s;
+}
+
+.rodape__redes-sociais a:hover {
+  color: #c083b9;
+}
+
+.rodape__redes-sociais img {
+  max-width: 10px;
+  margin-right: 0.5rem;
+}
+
+.rodape__redes-sociais span {
+  display: flex;
+  font-size: 1.5rem;
+}
+
+.rodape__cc {
+  width: 100%;
+  background-color: #292a2a;
+  font-size: 1rem;
+  opacity: 0.5;
+  text-align: center;
+}
+
+/* --- FOOTER --- */
+.rodape {
+  padding-top: 0;
+}
+
+.rodape__principal {
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.rodape__logo img {
+  max-width: 250px;
+}
+
+.rodape__navegacao > li {
+  font-size: 1.5rem;
+}
+
+
+.textoBioMobile,.textoBioMobile2, .textoCasaMobile {
+  display: none;
+}
+/* Versao Mobile */
+
+@media (max-width: 960px) {
+  .citacao {
+    display: none;
+
+  }
+
+  .biografia {
+    width: 100%;
+  }
+
+  .bioNise {
+    flex-direction: column-reverse;
+  }
+
+  .descricaoBio {
+    width: 100%;
+  }
+
+  .textoBio, .textoCasa {
+    display: none;
+  }
+
+  .textoBioMobile {
+    width: 100%;
+    display: flex;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 30px;
+
+  }
+
+  .bioDivImagem {
+    width: 100%;
+  }
+
+  .textoBioMobile2 {
+    width: 100%;
+    display: flex;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+
+  .tituloMuseu {
+    text-align: center;
+  }
+
+  .adelina, .barros {
+    display: block;
+  }
+
+  .adelinaImagem, .barrosImagem, .pertuisImagem {
+    margin:0 auto;
+  }
+
+  .adelinaBio, .barrosBio,.pertuisBio {
+    margin: 0px;
+    align-items: center;
+  }
+
+  .adelinaTexto, .barrosTexto, .pertuisTexto {
+    margin: 0px;
+    text-align: center;
+  }
+
+  .pertuis {
+    flex-direction: column-reverse;
+  }
+
+  .nomePertuis, .nomeBarros, .nomeAdelina {
+    text-align: center;
+  }
+
+.palmeiras {
+  width:100%;
+}
+
+  .casaPalmeiras {
+    display: flex;
+    flex-direction: column;
+    width:100%;
+
+  }
+  .casaDivImagem{
+    width: 100%;
+  }
+
+  .descricaoCasa {
+    width: 100%;
+
+  }
+
+  .textoCasaMobile {
+    width: 100%;
+    display: flex;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+
+}
+
+
+/*** MEDIA QUERIES ***/
+/* TABLET */
+@media (min-width: 768px) {
+  /* --- NAV --- */
+  .navegacao__itens {
+    position: static;
+    display: flex;
+    padding: 0;
+    width: auto;
+  }
+
+  .navegacao__nav {
+    margin-bottom: 0;
+  }
+
+  .navegacao__itens ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .navegacao__itens li {
+    font-size: 1.2rem;
+    margin: 0 0.6rem;
+  }
+
+  .navegacao__menu-hamburguer {
+    display: none;
+  }
+
+  /* --- HEADER --- */
+  .header {
+    min-height: 75vh;
+    background-size: cover;
+    background-position-y: 0;
+    text-align: left;
+    padding: 5rem 10rem;
+  }
+
+  .principal__titulo {
+    font-size: 2.9rem;
+  }
+
+  .principal__sub {
+    font-size: 1.8rem;
+  }
+
+  .principal__btn {
+    margin: 0;
+  }
+
+  /* --- SECTION MARAVILHOSAS --- */
+  .maravilhosas {
+    padding: 4rem 0;
+  }
+
+  .maravilhosas__box > div {
+    max-width: 200px;
+    margin: 5rem;
+  }
+
+  .maravilhosas__perfil img {
+    min-height: 220px;
+  }
+  .maravilhosas__perfil p {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+
+  /* --- FOOTER --- */
+  .rodape {
+    padding-top: 0;
+  }
+
+  .rodape__principal {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+
+  .rodape__logo img {
+    max-width: 250px;
+  }
+
+  .rodape__navegacao > li {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .principal {
+    max-width: 650px;
+  }
+  .secao-diva__introducao {
+    flex-direction: row;
+    margin: 3rem 0;
+  }
+  .secao-diva__foto-perfil {
+    max-width: 100%;
+    margin: 0 4rem;
+  }
+  .secao-diva p {
+    font-size: 1.7rem;
+  }
+  .secao-diva__citacao p {
+    font-size: 2.5rem;
+    padding: 4rem;
+  }
+  .secao-autora__about {
+    width: 400px;
+    flex-direction: row;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+  .secao-autora__dados {
+    margin: 0 3rem;
+  }
+}
+
+/* DESKTOP */
+@media (min-width: 1440px) {
+  .navegacao__box {
+    max-width: 80%;
+  }
+  .header {
+    min-height: 90vh;
+    background-position-y: 25%;
+  }
+  .navegacao__itens li {
+    font-size: 1.5rem;
+    margin: 0 1rem;
+  }
+  .principal {
+    max-width: 650px;
+  }
+}
