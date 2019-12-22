@@ -1,0 +1,73 @@
+.navbar.transparent.navbar-inverse .navbar-inner {
+    background-image: url(./img/img04.jpg);
+    width: 100%;
+  padding: 0%;
+  
+ }
+@media (max-width: 1024px){
+    .navbar-brand{
+        position: absolute;
+        min-height: 5rem;
+        text-align: right;
+        max-block-size: 3rem;
+        visibility: hidden;
+    }
+}
+
+.banner { 
+    background-image: url(./img/img04.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+   justify-content: center;
+    color: black;
+    padding:15%;
+    position: relative;
+    max-width: 100%;
+    text-align: center;
+    height: 675px;
+    size: 80px;
+    }
+    @media (max-width: 1024px) {
+        .banner{
+            background-position: inherit;
+            padding:5rem;
+            max-height: 100%;
+            max-width: auto;
+        }
+        }
+
+    .img-sign{
+        height: 50px;
+        position: relative;
+        padding-top:2rem;
+        padding-inline-end: 0;
+        }
+
+    .board{
+        padding-top: 30%;
+        font-display: large;
+        font-size: 1rem;
+        visibility: normal;
+        max-width: auto;
+        position: relative;
+        }
+
+        @media (min-width: 188px) and (max-width:1024px){
+            footer .main-footer{
+        padding: 6px 0;
+        color: whitesmoke;
+        position:center;
+        padding-top: 2rem;
+        width: 100%;
+        }
+        footer ul{
+        padding-left: 0;
+        list-style: none;
+        color: whitesmoke;
+        }
+        .banner{
+            padding:0;
+        }
+    }
+
+
