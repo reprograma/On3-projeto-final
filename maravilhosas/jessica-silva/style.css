@@ -1,0 +1,228 @@
+/* --- MOBILE FIRST - iPhone 7 - width < 768px --- */
+/* --- GERAL --- */
+/*
+unidades preferidas para esse CSS
+margin, padding: rem
+font-size: rem
+width: %
+max-width: % ou px
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px; /* definir uma font-size padrão */
+}
+
+body {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+/* define que as imagens tem que ter o tamanho máximo da div mãe */
+.img-responsive {
+    width: 100%;
+}
+
+/* define o tamanho da caixa */
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 960px;
+}
+
+/* --- HEADER --- */
+.header {
+    min-height: 70vh;
+    height: 480px;
+    background: 
+        linear-gradient(to top, rgba(3, 3, 3, 0.781) 0,
+        rgba(196, 61, 223, 0.418) 50%,
+        black 100%),
+        url(./img/harriet-tubman.jpg);
+    background-size: cover;
+    filter: contrast(100%);
+    background-position-y:  5%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    padding: 11rem 2rem 5rem 2rem;
+    color: white;
+}
+
+.principal__titulo {
+    text-transform: uppercase;
+    font-size: 4.0rem;
+    font-weight: 900;
+    text-shadow: 0px 5px 15px black;
+}
+
+.principal__sub {
+    font-weight: 300;
+    margin: 2rem 0 3rem 0;
+    font-size: 1.8rem;
+    text-shadow: 0px 0px 15px black;
+}
+
+/* NAVEGACAO HARRIET - SOBRE-BIO-MAIS */
+
+.navegacaoHarriet ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 50px 20px 0 0;
+}
+.navegacaoHarriet li {
+    display: inline;
+    font-size: 20px;
+    margin: 50px 100px 0 0;
+    color: #949494;
+}
+
+/* SOBRE */
+
+.harriet__titulo{
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+.area {
+    height: 80px;
+    display: block;
+}
+
+.sobreharriet p{
+    margin: 0 70px 0 0;
+    line-height: 25px;
+}
+
+.sobreharriet__conteudo {
+    text-align: justify;
+    font-size: 16px;
+    font-weight: lighter;
+    display: flex
+}
+
+/* BIOGRAFIA HARRIET */
+
+.bioharriet__conteudo{
+    text-align: justify;
+    font-size: 16px;
+    font-weight: lighter;
+    display: flex;
+}
+
+.bioharriet p{
+    margin: 0 70px 0 0;
+    line-height: 25px;
+}
+
+.sobreHarriet__img img{
+    max-width: 300px;
+    height: auto;
+}
+
+/* LEGADO */
+
+.maisharriet__conteudo{
+    text-align: justify;
+    font-size: 16px;
+    font-weight: lighter;
+    display: inline-flex;
+    padding: 50;
+}
+.maisharriet p{
+    margin: 0 70px 0 0;
+    line-height: 25px;
+}
+
+
+/*--- SEPARADORES ---*/
+
+.separador1 {
+    background: url(./img/separador\ 1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height:100px;
+}
+
+.separador {
+    background-color:#000;
+    background-size: cover; 
+    height:200px;
+    width:100%;
+    display:block;
+    opacity:0;
+    margin: 100px 0 50px 0;
+}
+
+.separador2 {
+    background: url(./img/separador\ 2.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height:100px;
+}
+
+
+@media screen and (max-width: 768px){
+
+    .sobreharriet__conteudo {
+        display:block;
+    }
+    
+    .bioharriet__conteudo {
+        display:block;
+    }
+    
+    .maisharriet__conteudo {
+        display:block;
+    }
+        
+    .header {
+        width:100%;
+    }
+    
+    
+    .bioharriet p {
+        margin: 0 10px 0 10px;
+        line-height:25px;
+    }
+    
+    .maisharriet p {
+        margin: 0 10px 0 10px;
+        line-height:25px;
+    }
+    
+    .navegacaoHarriet {
+        margin: 0 0 0 20px;
+    }
+    
+    .harriet__titulo {
+        margin: 0 0 30px 10px;
+    }
+    
+    .sobreHarriet__img {
+        margin: 0 0 0 10px;
+    }
+    
+    .bioHarriet__img {
+        margin: 0 0 0 10px;
+    }
+    }
